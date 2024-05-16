@@ -1,6 +1,6 @@
 # Case Study : What drives the price of a car?
 
-[Link to notebook:]  AIML-Portfolio-Car-Price/prompt_II.ipynb at main · mabusamra1/ML-AI-Car-Price](https://github.com/mabusamra1/ML-AI-Car-Price/blob/main/prompt_II MAS.ipynb) 
+[Link to notebook:]  AIML-Portfolio-Car-Price/prompt_II.ipynb at main · mabusamra1/ML-AI-Car-Price](https://github.com/mabusamra1/ML-AI-Car-Price/blob/main/prompt_II_MAS.ipynb) 
 
 
 
