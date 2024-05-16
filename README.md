@@ -645,9 +645,8 @@ The pre-processed data will be split, of which 70% will be randomly allocated fo
 
 ### 5.1.3   Model Build 
 
-The transformation of the categorical features will be executed as part of the "Pre-process" step. A pipeline will be defined to determine the optimal 'degree' hyperparameter. The numerical features will be transformed as part of this pipeline, defined as follows:
+The transformation of the categorical features will be executed as part of the "Pre-process" step. A pipeline will be defined to determine the optimal 'degree' hyperparameter. The numerical features will be transformed as part of the preprocessor.
 
- ![AIML-Portfolio-Car-Price/images/pipeline.png at main · mabusamra1/ML-AI-Car-Price](https://github.com/mabusamra1/ML-AI-Car-Price/blob/main/images/pipeline.png) 
 
 During the evaluation of the models, the GridSearchCV with CV defaulted to 5 will be executed outside of a pipeline (since we are not setting up the best model to make predictions), to determine the optimal 'alpha' for Redge and Lasso models. The LinearRegression will also be executed outside of the pipeline.
 
@@ -673,9 +672,9 @@ Test MSE: 67675799.25908662
 Train RMSE: 8185.094665795767
 Test RMSE: 8226.53020775385
 
- ![AIML-Portfolio-Car-Price/images/optimal_degree14.png at main · mabusamra1/ML-AI-Car-Price](https://github.com/mabusamra1/ML-AI-Car-Price/blob/main/images/polynomialDeree14.png) 
+ ![AIML-Portfolio-Car-Price/images/optimal_degree14.png at main · mabusamra1/ML-AI-Car-Price](https://github.com/mabusamra1/ML-AI-Car-Price/blob/main/images/polynomialDegree14.png) 
 
-**Figure 14 - Optimal 'degree'**
+**Figure 13 - Optimal 'degree'**
 
 Figure 15 provides the performance of the Linear Regression model in terms of MSE/RMSE as the polynomial 'degree' varies. As shown in the figure, the best 'degree' polynomial is 7.
 
@@ -736,7 +735,7 @@ From Table 1, LinearRegression model has the best performance and therefore, it 
 
  ![AIML-Portfolio-Car-Price/images/best_features15.png at main · mabusamra1/ML-AI-Car-Price](https://github.com/bmabusamra1/ML-AI-Car-Price/blob/main/images/importantFeatures15.png) 
 
-**Figure 15 - Important features selected by optimal model**
+**Figure 14 - Important features selected by optimal model**
 
 Figure 16 provides the list of features that drive the price of the car. From the figure it is clear that odometer has the highest importance followed by the age (year manufactured) of the car. The other features of interest that were scored extremely low are:
 
