@@ -733,8 +733,9 @@ From Table 1, LinearRegression model has the best performance and therefore, it 
 
 
 
- ![AIML-Portfolio-Car-Price/images/best_features15.png at main · mabusamra1/ML-AI-Car-Price](https://github.com/bmabusamra1/ML-AI-Car-Price/blob/main/images/importantFeatures15.png) 
+ ![AIML-Portfolio-Car-Price/images/best_features15.png at main · mabusamra1/ML-AI-Car-Price](https://github.com/mabusamra1/ML-AI-Car-Price/blob/main/images/importantFeatures15.png) 
  
+
 
 **Figure 14 - Important features selected by optimal model**
 
